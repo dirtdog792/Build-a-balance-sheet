@@ -26,3 +26,19 @@ Step 9
 The thead and tbody elements are used to indicate which portion of your table is the header, and which portion contains the primary data or content.
 
 Add a thead and tbody to your first table, below the caption element.
+Step 10
+The tr element is used to indicate a table row. Add a tr element within your thead element. In your new tr element, add a td element, followed by three th elements.
+
+The td element indicates a data cell, while the th element indicates a header cell.
+Step 11
+Within each of your new th elements, nest a span element with the class set to sr-only year. Give them the following text (in order): 2019, 2020, and 2021.
+
+Give your third th element the class attribute set to current.
+
+Leave the td element empty. This element exists only to ensure your table has a four-column layout and associate the headers with the correct columns.
+Step 12
+Within your tbody element, add four tr elements. Give the first three a class attribute set to data, and the fourth a class attribute set to total.
+Step 13
+In your first tr, add a th element with the text Cash This is the cash we currently have on hand.. Wrap all of that text except Cash in a span element with the class set to description.
+
+Following that, add three td elements with the following text (in order): $25, $30, $28. Give the third td element a class attribute set to current.
