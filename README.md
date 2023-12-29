@@ -42,3 +42,7 @@ Step 13
 In your first tr, add a th element with the text Cash This is the cash we currently have on hand.. Wrap all of that text except Cash in a span element with the class set to description.
 
 Following that, add three td elements with the following text (in order): $25, $30, $28. Give the third td element a class attribute set to current.
+Step 14
+In your second tr element, add a th element with the text Checking Our primary transactional account.. Wrap that text, except for Checking , in a span element with the class attribute set to description.
+
+Following that, add three td elements with the following text (in order): $54, $56, $53. Give the third td element a class attribute set to current.
